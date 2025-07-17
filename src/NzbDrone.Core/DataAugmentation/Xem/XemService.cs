@@ -75,7 +75,7 @@ namespace NzbDrone.Core.DataAugmentation.Xem
                         continue;
                     }
 
-                    episode.SceneAbsoluteEpisodeNumber = mapping.Scene.Absolute;
+                    episode.SceneAbsoluteEpisodeNumber = mapping.Tvdb.Absolute;
                     episode.SceneSeasonNumber = mapping.Scene.Season;
                     episode.SceneEpisodeNumber = mapping.Scene.Episode;
                 }
